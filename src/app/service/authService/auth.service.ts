@@ -7,7 +7,7 @@ export class AuthService {
 
   Tokens: Observable<any>;
   loggedIn = new Subject<boolean>();
-  private configUrl = 'http://104.236.20.160:5000'
+  private configUrl = 'https://personal-budget-backend-nbad-u.herokuapp.com/'
   constructor(private http: HttpClient) { }
 
   register(user) {
