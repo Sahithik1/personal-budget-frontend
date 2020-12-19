@@ -6,7 +6,7 @@ import { Category } from '../../models/category';
   providedIn: 'root'
 })
 export class BudgetService {
-  private configUrl = 'https://personal-budget-backend-nbad-u.herokuapp.com/'
+  private configUrl = 'https://personal-budget-backend-nbad-u.herokuapp.com'
   constructor(private http: HttpClient) { }
 
   getCategories() {
